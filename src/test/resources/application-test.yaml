@@ -1,0 +1,2 @@
+image-service:
+  resource-path: src/test/resources/images

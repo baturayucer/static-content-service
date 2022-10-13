@@ -1,0 +1,13 @@
+cloud:
+  aws:
+    region:
+      static: us-east-1
+    stack:
+      auto: false
+
+springdoc:
+  swagger-ui:
+    path: /api-doc.html
+
+image-service:
+  resource-path: src/main/resources/images
