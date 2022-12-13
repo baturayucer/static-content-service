@@ -27,6 +27,7 @@ object ImagePathGenerator {
     private fun String.getFirstFourLetterPath(): String =
         "/${this.substring(0, 4)}"
 
+    //TODO: magic numbers
     private fun determineImagePath(filenameWithoutExtension: String) = when {
         filenameWithoutExtension.length <= 4 -> "/$filenameWithoutExtension"
         filenameWithoutExtension.length <= 8 -> filenameWithoutExtension.getFirstFourLetterPath()
